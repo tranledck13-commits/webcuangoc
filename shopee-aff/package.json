@@ -1,0 +1,6 @@
+{
+  "name": "shopee-aff-product-api",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" }
+}
