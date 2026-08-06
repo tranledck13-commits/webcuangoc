@@ -4,10 +4,7 @@
 
 Repo co endpoint `GET /api/product?url=LINK_SHOPEE`. Endpoint ho tro link ngan, lay thong tin san pham va chi tra `estimatedCommission` (50% hoa hong nguon).
 
-Can khai bao hai Environment Variables tren Vercel:
-
-- `SHOPEE_API_APP_ID`
-- `SHOPEE_API_SECRET`
+Endpoint dung Product Data API trong repo goc, khong can App ID hay Secret. Truong `commission` chi duoc dung noi bo de tinh `estimatedCommission = commission x 50%` va khong tra hoa hong goc ra client.
 
 > Tài liệu tổng hợp các API chính thống của Shopee Affiliate để lấy dữ liệu sản phẩm, tạo link affiliate và theo dõi conversion tự động.
 
